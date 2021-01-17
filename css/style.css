@@ -1,0 +1,239 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Navigation starts */
+
+#mynavigation{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+}
+
+#mynavigation a{
+    color: #fff;
+}
+
+#mynavigation ul a{
+    font-weight: 400;
+    padding: 1rem 2.6rem;
+    border-radius: 5px;
+}
+
+#mynavigation .navbar-header a{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#mynav .icon-bar{
+    background: #fff;
+}
+
+.active{
+    background-color: #2b8fc4;
+}
+
+/* Navigation ends */
+
+/* Banner starts */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.banner .banner-text{
+    padding-top: 23rem;
+    color: #fff;
+}
+
+.banner-text h2{
+    font-weight: 400;
+}
+
+.banner-text p{
+    margin: 2rem auto 4rem;
+    line-height: 2.8rem;
+    width: 80%;
+}
+
+.banner-text button{
+    background-color: #2b8fc4;
+    border: none;
+    padding: 1rem 2.8rem;
+    border-radius: 3px;
+}
+
+/* Feature-boxes starts */
+
+.feature-boxes{
+    padding: 5rem 0;
+    background-color: black;
+}
+
+.feature-boxes h2, main h2{
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+.feature-boxes span{
+    color: #fff;
+    font-size: 4.5rem;
+    margin: 3rem 0;
+}
+
+.feature-boxes p, main p{
+    color: gray;
+}
+
+.feature-boxes button, main button{
+    background-color: #2b8fc4;
+    border: none;
+    padding: 1.1rem 2.4rem;
+    border-radius: 5px;
+    color: #fff;
+    margin: 3rem 0;
+}
+
+/* Main starts */
+
+main{
+    background-color: #101214;
+    padding: 3rem 0;
+}
+
+
+main img{
+    width: 100%;
+    margin: 3rem 0;
+    border-radius: 6px;
+}
+
+hr{
+    border: 1px solid #dbdbdb1e;
+}
+
+main p{
+    line-height: 2.4rem;
+}
+
+/* Tristique starts */
+.tristique button{
+    display: inline-block;
+}
+
+.tristique h3{
+    display: inline-block;
+    font-size: 1.3rem;
+    color: #fff;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+.tristique p{
+    margin: 2.2rem 0 0.6rem;
+}
+
+/* Tristique ends */
+
+/* Donect starts */
+
+.donec h2{
+    margin-bottom: 0;
+}
+
+.donec h3{
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    font-size: 1.3rem;
+    padding-left: 2px;
+}
+
+.donec p{
+    margin: 2rem 0 1rem;
+}
+
+/* Donec ends */
+
+/* Nulla starts */
+
+main .nulla hr{
+    margin: 0;
+}
+
+main .nulla h2{
+    margin-bottom: 3rem;
+}
+
+main .nulla p{
+    margin: 5px 0;
+}
+
+/* Nulla ends */
+
+/* Right-side css */
+.right-side img{
+    margin: 0;
+}
+
+.right-side button{
+    margin: 0;
+}
+
+/* Right-sdie css ends */
+
+/* News starts */
+
+.news{
+    margin: 3rem 0;
+}
+
+.left{
+    float: left;
+}
+/* News ends */
+
+/* Footer starts */
+
+.footer span, .left-side span{
+    text-decoration: underline;
+    color: #fff;
+}
+/* Footer ends */
+
+/* Media Queries */
+
+@media only screen and (max-width:992px){
+    .banner-text h2{
+        font-size: 2.4rem;
+    }
+
+    .banner-text p{
+        margin: 1.4rem auto 3.2rem;
+        line-height: 2.2rem;
+        width: 100%;
+    }
+
+    
+}
